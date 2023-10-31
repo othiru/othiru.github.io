@@ -1,6 +1,3 @@
-document.getElementById("p1").innerHTML = "Learning JavaScript Part-10";
-
-
 class Products
 {
     constructor()
