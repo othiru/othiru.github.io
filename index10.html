@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Assignment-1 (Shopping Cart)</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style10.css">
+
+</head>
+<body>
+
+    <h1><u><p id="p1"></p></u></h1>
+
+    <h2>Topic-17: Assignment-1 (E-Commerce Shopping Cart)</h3>
+    <ul>
+        <li>একটা ওয়েব পেইজের যেকোনো অংশে একটা প্রোডাক্ট এর লিস্ট থাকবে</li>
+        <li>প্রতিটা প্রোডাক্টের সাথে দাম থাকবে আর একটা Add to Cart নামে বাটন থাকবেI</li>
+        <li>প্রোডাক্ট লিস্টের নিচে বা বামে আপনি কার্ট দেখাতে পারেন, কার্ট টি শুরুতে খালি থাকবে</li>
+        <li>Add to Cart বাটনে ক্লিক করলে প্রোডাক্ট টি কার্টে যোগ হবে, প্রোডাক্ট লিস্ট থেকে প্রোডাক্ট টা যাবে না</li>
+        <li>আবার কার্টের প্রোডাক্ট গুলোর পাশে একটা Remove বাটন থাকবে, যেটা ক্লিক করলে প্রোডাক্ট টা রিমুভ হয়ে যাবে</li>
+        <li>ইমেজ দেখাতে হবে না</li>
+        <li>একটা প্রোডাক্ট একবার এড করতে পারলে হবে</li>
+        <li>কোয়ান্টিটি, মোট মূল্য দেখানো মেন্ডাটরি না</li>
+        <li>ডিজাইন ইম্পর্ট্যান্ট না, ফাংশনালিটির উপর জোর দেয়ার চেষ্টা করুন</li>
+    </ul>
+    
+    <hr>
+
+
+    <h3 class="heading1">Assignment-1 (E-Commerce Shopping Cart)</h3>
+    
+    <div class="container">
+        <div class="d-flex justify-content-end bg-secondary p-3">
+            <a href="#divOne" class="links" id="home">Home</a>
+            <a href="#divTwo" class="links" id="viewCart">View Cart</a>
+        </div>
+        <br>
+        <div id="alert1"></div>
+        <div class="products" id="divOne">
+            <h2>Products (4)</h2>
+            <div id="products" class="d-flex flex-wrap justify-content-around">
+            </div>
+        </div>
+        <br>
+        <div id="alert2"></div>
+        <div id="divTwo">
+            <h2>Shopping Cart</h2>
+            <div id="mainCart">
+                <table class="table">
+                    <thead>
+                        <tr class="text-center">
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Weight</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyData">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script10.js"></script>
+
+</body>
+</html>
