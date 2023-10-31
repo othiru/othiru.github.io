@@ -1,0 +1,33 @@
+.heading1
+{
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.links
+{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.links:hover
+{
+    color: cyan;
+    text-decoration: underline;
+}
+
+.success, .delete
+{
+    color: white;
+    padding: 10px;
+}
+.success
+{
+    background-color: green;
+}
+.delete
+{
+    background-color: red;
+}
