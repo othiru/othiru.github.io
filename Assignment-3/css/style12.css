@@ -1,0 +1,21 @@
+.heading1
+{
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.success, .unsuccess
+{
+    color: white;
+    padding: 10px;
+}
+.success
+{
+    background-color: green;
+}
+.unsuccess
+{
+    background-color: red;
+}
