@@ -26,7 +26,7 @@ function emailValidate()
 {
     let value1 = prompt(`Enter Email Address: 
 Example: abc@gmail.com`);
-    let re1 = /^([a-zA-Z0-9]\.?)+[^\.]@([a-zA-Z0-9]\.?)+[^\.]\.([a-zA-Z0-9]\.?)+[^\.]$/
+    let re1 = /^([a-zA-Z0-9]\.?)+[^\.]@([a-zA-Z0-9]\.?)+[^\.]\.([a-zA-Z0-9]\.?)+[^\.]$/;
 
     if (value1 !== null && value1 !== "")
     {
